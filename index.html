@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#f4f4f2" />
+  <title>철학맨 김선중의 철학 노래방</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="app-shell">
+    <header class="site-header">
+      <button id="backButton" class="back-button" type="button" aria-label="뒤로가기">←</button>
+      <h1 id="pageTitle">철학맨 김선중의 철학 노래방</h1>
+      <span class="header-spacer"></span>
+    </header>
+
+    <section id="homeView" class="view">
+      <div class="intro">
+        <p class="eyebrow">PHILOSOPHY × REELS</p>
+        <p class="intro-copy">시험기간을 앞둔 학생을 위한 철학맨의 선곡들.</p>
+      </div>
+      <div id="songGrid" class="song-grid" aria-label="노래 목록"></div>
+    </section>
+
+    <section id="detailView" class="view detail-view" hidden>
+      <article id="detailContent"></article>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
